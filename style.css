@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#background-body {
+  background: #090b1a;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#everything {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1150px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#everything #left-side {
+  text-align: center;
+  background: #1b1938;
+  font-family: "Lexend Deca";
+  border-bottom-right-radius: 1%;
+  border-top-right-radius: 1%;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+#everything #left-side #left-side-content {
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+#everything #left-side p {
+  text-align: left;
+  margin-top: 3.8rem;
+  font-size: 16px;
+}
+
+#everything #left-side ul {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 4rem;
+  margin-top: 10rem;
+  line-height: 24px;
+}
+
+#everything #left-side ul li {
+  margin-right: 10rem;
+  font-size: 14px;
+}
+
+#everything #right-side {
+  position: relative;
+}
+
+#everything #right-side:after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(137, 32, 207, 0.445);
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+}
+/*# sourceMappingURL=style.css.map */
